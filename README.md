@@ -2,6 +2,9 @@
 
 This Bash script reports if there are more CPU-bound processes running than the number of CPU cores available. This may indicate an inefficient use of system resources and could result in performance issues.
 
+# Demo
+![](https://github.com/lrvl/detect_cpupressure/blob/main/screenrecording.gif)
+
 # Requirements
 
 The script requires a Linux kernel with vmlinuz-$MAJOR psi=1 in /proc/cmdline. This means that the kernel must have the PSI (Pressure Stall Information) feature enabled.
